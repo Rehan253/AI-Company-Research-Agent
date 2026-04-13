@@ -34,6 +34,8 @@ dependencies = [
     "tavily-python>=0.5.0",
     # Evaluation
     "ragas>=0.2.0",
+    # Wikipedia access (more reliable than scraping HTML)
+    "wikipedia-api>=0.6.0",
 ]
 
 [project.optional-dependencies]
