@@ -1,0 +1,33 @@
+# === Environment & Secrets ===
+.env
+*.env
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+
+# === Data (too large for git) ===
+data/chromadb/
+data/sample_pdfs/
+data/evaluation/
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+*.log
+logs/
